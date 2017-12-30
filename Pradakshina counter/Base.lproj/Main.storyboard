@@ -51,7 +51,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNd-dS-Nzt">
-                                <rect key="frame" x="104" y="33" width="50" height="50"/>
+                                <rect key="frame" x="60" y="39" width="50" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Reset">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -64,12 +64,12 @@
                         <color key="backgroundColor" red="0.037190422415733337" green="0.011542011983692646" blue="0.031553406268358231" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fEK-Sg-0JC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="E6M-AT-Tv4"/>
-                            <constraint firstItem="fEK-Sg-0JC" firstAttribute="bottom" secondItem="fNd-dS-Nzt" secondAttribute="bottom" id="EyZ-vs-xEY"/>
+                            <constraint firstItem="fEK-Sg-0JC" firstAttribute="bottom" secondItem="fNd-dS-Nzt" secondAttribute="bottom" constant="-6" id="EyZ-vs-xEY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fEK-Sg-0JC" secondAttribute="trailing" constant="65" id="L1t-Tg-i00"/>
                             <constraint firstItem="OJX-Pz-cIj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MWt-Eh-uD9"/>
                             <constraint firstItem="vYV-Aa-ua6" firstAttribute="top" secondItem="OJX-Pz-cIj" secondAttribute="bottom" constant="20" id="V0v-De-XSG"/>
-                            <constraint firstItem="fEK-Sg-0JC" firstAttribute="top" secondItem="fNd-dS-Nzt" secondAttribute="top" id="XdN-0M-jP1"/>
-                            <constraint firstItem="fNd-dS-Nzt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="104" id="bHK-cf-DqQ"/>
+                            <constraint firstItem="fEK-Sg-0JC" firstAttribute="top" secondItem="fNd-dS-Nzt" secondAttribute="top" constant="-6" id="XdN-0M-jP1"/>
+                            <constraint firstItem="fNd-dS-Nzt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="bHK-cf-DqQ"/>
                             <constraint firstItem="OJX-Pz-cIj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kpt-Vh-jVM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vYV-Aa-ua6" secondAttribute="trailing" constant="90" id="kyN-aI-9nF"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fNd-dS-Nzt" secondAttribute="trailing" id="nWH-5j-0b2"/>
