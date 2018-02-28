@@ -36,7 +36,7 @@ class ViewController: UIViewController {
             self.counterNumbers = 0
             self.counterLabel.text = String(self.counterNumbers)
         }))
-        alert.addAction(UIAlertAction(title: "cancel", style: UIAlertActionStyle.cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel, handler: nil))
         self.present(alert, animated: true, completion: nil)
         
     }
