@@ -11,7 +11,6 @@
 		C632BE9E1FF7087100AE8668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C632BE9D1FF7087100AE8668 /* ViewController.swift */; };
 		C632BEA11FF7087100AE8668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C632BE9F1FF7087100AE8668 /* Main.storyboard */; };
 		C632BEA31FF7087100AE8668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C632BEA21FF7087100AE8668 /* Assets.xcassets */; };
-		C632BEA61FF7087100AE8668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C632BEA41FF7087100AE8668 /* LaunchScreen.storyboard */; };
 		C632BEB11FF7087100AE8668 /* Pradakshina_counterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C632BEB01FF7087100AE8668 /* Pradakshina_counterUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		C632BE9D1FF7087100AE8668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C632BEA01FF7087100AE8668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C632BEA21FF7087100AE8668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C632BEA51FF7087100AE8668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C632BEA71FF7087100AE8668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C632BEAC1FF7087100AE8668 /* Pradakshina counterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pradakshina counterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C632BEB01FF7087100AE8668 /* Pradakshina_counterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pradakshina_counterUITests.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				C632BE9D1FF7087100AE8668 /* ViewController.swift */,
 				C632BE9F1FF7087100AE8668 /* Main.storyboard */,
 				C632BEA21FF7087100AE8668 /* Assets.xcassets */,
-				C632BEA41FF7087100AE8668 /* LaunchScreen.storyboard */,
 				C632BEA71FF7087100AE8668 /* Info.plist */,
 			);
 			path = "Pradakshina counter";
@@ -179,7 +176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C632BEA61FF7087100AE8668 /* LaunchScreen.storyboard in Resources */,
 				C632BEA31FF7087100AE8668 /* Assets.xcassets in Resources */,
 				C632BEA11FF7087100AE8668 /* Main.storyboard in Resources */,
 			);
@@ -229,14 +225,6 @@
 				C632BEA01FF7087100AE8668 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C632BEA41FF7087100AE8668 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C632BEA51FF7087100AE8668 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
