@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     let impact = UIImpactFeedbackGenerator()
     var counterNumbers: Int = 0
     
+    override var preferredStatusBarStyle : UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         counterLabel.text = "0"
